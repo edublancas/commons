@@ -111,7 +111,8 @@ class Square(object):
         return self.l**2
 ```
 
-**A note about comments**: comments should explain *why* you are doing some operation *not what* operation. The what can be infered from the code itself but the why is harder to infer.
+**A note about comments**: comments should explain *why* you are doing some operation *not what* operation. The what can be infered from the code itself but the why is harder to infer. You do not need to comment every line, but add them when it may be hard for others to understand what's going on
+
 
 **A note about objects**: objects are meant to encapsulate mutable state. Mutable objectsa are hard to debug. When writing scientific software, we usually do not need mutable state, we only want to process input in a stateless manner, so only use objects when absolutely necessary.
 
