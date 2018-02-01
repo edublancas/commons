@@ -7,13 +7,13 @@ First, we need to install __PROJECT_NAME__ in develop mode.
 
 Clone the repo:
 
-```
+```shell
 git clone __PROJECT_URL__
 ```
 
 Move to the folder containing the `setup.py` file and install the package in development mode:
 
-```
+```shell
 cd __ROOT_FOLDER_NAME__
 pip install --editable .
 ```
@@ -22,22 +22,21 @@ If you install it that way, you can modify the source code and changes will refl
 
 Make sure you can import the package and that it's loaded from the location where you ran `git clone`. First open a Python intrepreter:
 
-```
+```shell
 python
 ```
 
 And load the package you installed:
 
-```
+```python
 import __PACKAGE_NAME__
 __PACKAGE_NAME__
 ```
 
 You should see something like this:
 
-```
-path/to/cloned/repository
-```
+    path/to/cloned/repository
+
 
 ## Developing a package without restarting a session
 

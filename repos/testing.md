@@ -5,7 +5,7 @@
 Each time you modify the codebase it's important that you make sure all tests
 pass and that all files comply with the style guide:
 
-```
+```shell
 # this command will run tests and check the style in all files
 pytest --flake8
 ```

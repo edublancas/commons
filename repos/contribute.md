@@ -5,7 +5,7 @@ Replace: __PROJECT_URL__
 Internal contributors have write permissins to the repo, you can create new
 branches, do your work and submit pull requests:
 
-```
+```shell
 # move to the repo
 cd path/to/repo
 
@@ -160,7 +160,7 @@ pip install flake8
 
 To check a file:
 
-```
+```shell
 flake8 my_script.py
 ```
 
