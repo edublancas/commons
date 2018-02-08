@@ -26,6 +26,10 @@ Create a new environment for your project with this command:
 
 ```shell
 conda create --name=project
+
+# after creating the environment install pip so you can install
+# other packages
+conda install pip
 ```
 
 You can specify a Python version:
@@ -45,6 +49,12 @@ Install packages in that environment:
 
 ```shell
 pip install numpy
+```
+
+...or from a `requirements.txt` file
+
+```
+pip install -r requirements.txt
 ```
 
 Deactivate environment:
